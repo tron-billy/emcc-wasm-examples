@@ -10,4 +10,7 @@
 生成 HTML 和 JavaScript 
 
 ## Example 2
+如何调用 C 函数
+
+## Example 3
 加载使用 WASM
