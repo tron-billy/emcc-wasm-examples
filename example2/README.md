@@ -10,11 +10,13 @@
 `emcc myFunction.c -s WASM=1 -s "EXPORTED_RUNTIME_METHODS=['ccall']" -o index.html`
 
 ## 结果
-**- index.html**
+- **index.html**
 加载，编译，实例化 wasm 代码并且将它输出在浏览器显示上的 HTML 文件
-**- index.js**
+
+- **index.js**
 用来在原生 C 函数和 JavaScript/wasm 之间转换的胶水代码的 
-**- index.wasm**
+
+- **index.wasm**
 二进制的 wasm 模块代码
 
 ## 验证
